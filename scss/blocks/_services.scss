@@ -1,0 +1,147 @@
+.services {
+    padding: 100px 0px;
+
+    &__title {
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 90%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 58px;
+    }
+
+    &__container {
+        min-height: 1000px;
+        position: relative;
+    }
+
+    &__item {
+        position: absolute;
+    }
+
+    &__item-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    &__item-title {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 120%;
+        letter-spacing: 0.01em;
+        color: #fff;
+    }
+
+    &__item-icon {
+        cursor: pointer;
+        margin-top: 7px;
+    }
+}
+
+.item-2 {
+    top: 100px;
+    right: 100px;
+}
+
+.item-3 {
+    bottom: 250px;
+    left: 450px;
+}
+
+.item-4 {
+    bottom: 0;
+    left: 0;
+}
+
+.item-5 {
+    bottom: 0;
+    right: 0;
+}
+
+/* ============================================================================== */
+
+@media (max-width: 1250px) {
+    .services {
+        padding: 70px 0px;
+
+        &__item-image {
+            width: 400px;
+        }
+
+        &__item-image img{
+            width: 70%;
+        }
+
+        &__container {
+            min-height: 1500px;
+        }
+    }
+
+    .item-1 {
+        left: 40px;
+    }
+
+    .item-2 {
+        top: 250px;
+        right: 30px;
+    }
+
+    .item-3 {
+        bottom: 640px;
+        left: 50px;
+    }
+
+    .item-4 {
+        bottom: 330px;
+        right: 20px;
+        left: inherit;
+    }
+
+    .item-5 {
+        right: inherit;
+        left: 40px;
+        bottom: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .services {
+
+        padding: 50px 0px;
+        
+        &__item {
+            margin: 0px auto;
+            left: 50%;
+        transform: translate(-35%, 0%);
+        }
+
+        &__item-content {
+            justify-content: inherit;
+            gap: 30px;
+        }
+
+        &__title {
+            font-size: 46px;
+        }
+
+        &__item-title {
+            font-size: 28px;
+        }
+    }
+
+    .item-2 {
+        right: inherit;
+    }
+
+    .item-4 {
+        right: inherit;
+    }
+
+    .item {
+        left: 50%;
+        transform: translate(-35%, 0%);
+    }
+}

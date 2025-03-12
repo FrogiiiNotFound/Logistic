@@ -1,0 +1,126 @@
+.info {
+
+    padding: 100px 0px;
+    background-color: white;
+
+    &__title {
+        max-width: 1087px;
+        font-family: "Integral CF Regular";
+        font-weight: 400;
+        font-size: 54px;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #010101;
+        margin: 0px auto 87px auto;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        max-width: 440px;
+        min-height: 272px;
+
+        border-radius: 20px;
+        padding: 30px;
+        box-shadow: 0 12px 26px 0 rgba(0, 0, 0, 0.1), 0 48px 48px 0 rgba(0, 0, 0, 0.09), 0 108px 65px 0 rgba(0, 0, 0, 0.05), 0 192px 77px 0 rgba(0, 0, 0, 0.01), 0 300px 84px 0 rgba(0, 0, 0, 0);
+        background: #fff;
+        transition: all 0.3s linear;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    &__item-title {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #111;
+        margin-bottom: 69px;
+
+        & span {
+            color: #06f;
+        }
+    }
+
+    &__item-text {
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        color: #111;
+    }
+}
+
+.item-blue {
+    box-shadow: 0 12px 26px 0 rgba(0, 0, 0, 0.1), 0 48px 48px 0 rgba(0, 0, 0, 0.09), 0 108px 65px 0 rgba(0, 0, 0, 0.05), 0 192px 77px 0 rgba(0, 0, 0, 0.01), 0 300px 84px 0 rgba(0, 0, 0, 0);
+    background: #06f;
+}
+
+.text-blue {
+    color: #fff;
+}
+
+.title-max {
+    max-width: 281px;
+}
+
+/* ============================================================================== */
+
+@media (max-width: 1250px) {
+    .info {
+        &__title {
+            font-size: 44px;
+        }
+
+        &__item {
+            max-width: 360px;
+        }
+
+        &__item-title {
+            font-size: 28px;
+        }
+
+        &__item-text {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .info {
+
+        padding: 0px 0px 50px 0px;
+
+        &__title {
+            font-size: 40px;
+        }
+
+        &__item-title {
+            font-size: 24px;
+        }
+
+        &__item-text {
+            font-size: 14px;
+        }
+
+        &__item {
+            max-width: 240px;
+        }
+    }
+}
+
+@media (max-width: 528px) {
+    .info {
+        &__title {
+            font-size: 34px;
+        }
+    }
+}

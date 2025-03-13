@@ -3,6 +3,10 @@
     padding: 100px 0px 300px 0px;
     background-color: white;
 
+    &__container {
+        position: relative;
+    }
+
     &__title {
         font-family: "Integral CF Regular";
         max-width: 848px;

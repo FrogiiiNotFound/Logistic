@@ -3,6 +3,10 @@
     padding: 100px 0px;
     background-color: black;
 
+    &__container {
+        position: relative;
+    }
+
     &__first-title {
         position: relative;
         font-family: 'Steelfish', sans-serif;
@@ -191,11 +195,11 @@ body {
         0% {
             right: -200%;
         }
-    
+
         50% {
             right: 0%;
         }
-    
+
         100% {
             right: 200%;
         }

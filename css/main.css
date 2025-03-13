@@ -801,6 +801,9 @@ a {
   padding: 100px 0px 300px 0px;
   background-color: white;
 }
+.perks__container {
+  position: relative;
+}
 .perks__title {
   font-family: "Integral CF Regular";
   max-width: 848px;
@@ -1253,6 +1256,9 @@ a {
 .slogan {
   padding: 100px 0px;
   background-color: black;
+}
+.slogan__container {
+  position: relative;
 }
 .slogan__first-title {
   position: relative;

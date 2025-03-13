@@ -11,3 +11,5 @@ menuIcon.addEventListener('click', (e) => {
         e.classList.add("link-1")
     })
 })
+
+

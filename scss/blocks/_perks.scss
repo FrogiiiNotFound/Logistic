@@ -69,23 +69,9 @@
 
 .perks__truck {
     position: absolute;
-
-
-    animation: truckAnimation 5s linear infinite;
-}
-
-@keyframes truckAnimation {
-    0% {
-        right: -100%;
-    }
-
-    50% {
-        right: 0%;
-    }
-
-    100% {
-        right: 100%;
-    }
+    /* Или absolute, в зависимости от ваших требований */
+    right: 100%;
+    /* Начальное положение вне экрана */
 }
 
 /* ============================================================================== */
@@ -148,26 +134,15 @@
 
         &__step-text {
             max-width: 230px;
-            font-size: 15px;
-        }
-
-        &__step-number {
-            font-size: 12px;
-            padding: 5px 12px;
+            font-size: 23px;
         }
     }
 
-    @keyframes truckAnimation {
-        0% {
-            right: -200%;
-        }
-
-        50% {
-            right: 0%;
-        }
-
-        100% {
-            right: 200%;
-        }
+    .perks__truck {
+        position: absolute;
+        /* Или absolute, в зависимости от ваших требований */
+        right: 50%;
+        /* Начальное положение вне экрана */
+    
     }
 }

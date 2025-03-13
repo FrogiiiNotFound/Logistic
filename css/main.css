@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 @import url(https://db.onlinewebfonts.com/c/f1fcc5aed1e20fc0cdb9f8a7573625bd?family=Integral+CF+Regular);
 @import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
@@ -150,7 +151,7 @@ a {
 .header__language-dot {
   position: absolute;
   top: 2px;
-  left: 2px;
+  left: 3px;
 }
 .header__language-pl {
   font-weight: 500;
@@ -239,6 +240,10 @@ a {
 
 ._active {
   overflow: hidden;
+}
+
+.switched {
+  margin-left: 14px;
 }
 
 /* ============================================================================== */
@@ -381,7 +386,6 @@ a {
 }
 .home {
   padding: 400px 0px 100px 0px;
-  background: url(../images/home/background.png) 0 0/cover no-repeat;
   background-size: 100%;
   margin-top: -86px;
 }
@@ -470,6 +474,11 @@ a {
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #fff;
+}
+.home__video {
+  position: relative;
+  margin-top: -1000px;
+  z-index: -1;
 }
 
 .animation-word {
@@ -865,33 +874,11 @@ a {
 
 .perks__truck {
   position: absolute;
-  -webkit-animation: truckAnimation 5s linear infinite;
-          animation: truckAnimation 5s linear infinite;
+  /* Или absolute, в зависимости от ваших требований */
+  right: 100%;
+  /* Начальное положение вне экрана */
 }
 
-@-webkit-keyframes truckAnimation {
-  0% {
-    right: -100%;
-  }
-  50% {
-    right: 0%;
-  }
-  100% {
-    right: 100%;
-  }
-}
-
-@keyframes truckAnimation {
-  0% {
-    right: -100%;
-  }
-  50% {
-    right: 0%;
-  }
-  100% {
-    right: 100%;
-  }
-}
 /* ============================================================================== */
 @media (max-width: 1250px) {
   .perks__title {
@@ -936,33 +923,13 @@ a {
   }
   .perks__step-text {
     max-width: 230px;
-    font-size: 15px;
+    font-size: 23px;
   }
-  .perks__step-number {
-    font-size: 12px;
-    padding: 5px 12px;
-  }
-  @-webkit-keyframes truckAnimation {
-    0% {
-      right: -200%;
-    }
-    50% {
-      right: 0%;
-    }
-    100% {
-      right: 200%;
-    }
-  }
-  @keyframes truckAnimation {
-    0% {
-      right: -200%;
-    }
-    50% {
-      right: 0%;
-    }
-    100% {
-      right: 200%;
-    }
+  .perks__truck {
+    position: absolute;
+    /* Или absolute, в зависимости от ваших требований */
+    right: 50%;
+    /* Начальное положение вне экрана */
   }
 }
 .contact {
@@ -1323,21 +1290,11 @@ body {
 
 .slogan__truck {
   position: absolute;
-  -webkit-animation: truckAnimation 5s linear infinite;
-          animation: truckAnimation 5s linear infinite;
+  /* Или absolute, в зависимости от ваших требований */
+  right: 100%;
+  /* Начальное положение вне экрана */
 }
 
-@keyframes truckAnimation {
-  0% {
-    right: -100%;
-  }
-  50% {
-    right: 0%;
-  }
-  100% {
-    right: 100%;
-  }
-}
 /* ============================================================================== */
 @media (max-width: 1250px) {
   .slogan__first-title {
@@ -1390,18 +1347,19 @@ body {
   }
   .slogan__first-title {
     font-size: 50px;
-    margin-bottom: 54px;
+    margin-bottom: 510px;
   }
   .slogan__second-title {
     font-size: 50px;
   }
   .slogan__image img {
-    margin-top: 170px;
+    margin-top: -240px;
     margin-left: -450px;
+    margin-bottom: 80px;
     width: 1200px;
   }
   .slogan__image {
-    margin-bottom: 38px;
+    margin-bottom: 100px;
   }
   .slogan__slogan-text {
     max-width: 155px;
@@ -1410,26 +1368,20 @@ body {
   .slogan__truck img {
     width: 600px;
   }
-  @-webkit-keyframes truckAnimation {
-    0% {
-      right: -200%;
-    }
-    50% {
-      right: 0%;
-    }
-    100% {
-      right: 200%;
-    }
+  .slogan__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
   }
-  @keyframes truckAnimation {
-    0% {
-      right: -200%;
-    }
-    50% {
-      right: 0%;
-    }
-    100% {
-      right: 200%;
-    }
+  .slogan__subtitle {
+    margin-bottom: 30px;
+  }
+  .slogan__truck {
+    position: absolute;
+    /* Или absolute, в зависимости от ваших требований */
+    right: 50%;
+    /* Начальное положение вне экрана */
   }
 }

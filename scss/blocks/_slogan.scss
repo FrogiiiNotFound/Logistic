@@ -73,23 +73,10 @@ body {
 
 .slogan__truck {
     position: absolute;
+    /* Или absolute, в зависимости от ваших требований */
+    right: 100%;
+    /* Начальное положение вне экрана */
 
-
-    animation: truckAnimation 5s linear infinite;
-}
-
-@keyframes truckAnimation {
-    0% {
-        right: -100%;
-    }
-
-    50% {
-        right: 0%;
-    }
-
-    100% {
-        right: 100%;
-    }
 }
 
 /* ============================================================================== */
@@ -163,7 +150,7 @@ body {
 
         &__first-title {
             font-size: 50px;
-            margin-bottom: 54px;
+            margin-bottom: 510px;
         }
 
         &__second-title {
@@ -171,14 +158,15 @@ body {
         }
 
         &__image img {
-            margin-top: 170px;
+            margin-top: -240px;
             margin-left: -450px;
+            margin-bottom: 80px;
 
             width: 1200px;
         }
 
         &__image {
-            margin-bottom: 38px;
+            margin-bottom: 100px;
         }
 
         &__slogan-text {
@@ -189,19 +177,22 @@ body {
         &__truck img {
             width: 600px;
         }
+
+        &__content {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        &__subtitle {
+            margin-bottom: 30px;
+        }
     }
 
-    @keyframes truckAnimation {
-        0% {
-            right: -200%;
-        }
-
-        50% {
-            right: 0%;
-        }
-
-        100% {
-            right: 200%;
-        }
+    .slogan__truck {
+        position: absolute;
+        /* Или absolute, в зависимости от ваших требований */
+        right: 50%;
+        /* Начальное положение вне экрана */
+    
     }
 }

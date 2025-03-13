@@ -1,6 +1,6 @@
 .contact {
 
-    padding: 100px 0px;
+    padding: 200px 0px 100px 0px;
 
     &__wrap {
         margin: 0px auto;
@@ -93,7 +93,7 @@
 @media (max-width: 1250px) {
     .contact {
 
-        padding: 70px 0px;
+        padding: 150px 0px 70px 0px;
 
         &__title {
             font-size: 44px;
@@ -138,7 +138,7 @@
 @media (max-width: 528px) {
     .contact {
         &__title {
-            font-size: 34px;
+            font-size: 30px;
         }
 
         &__upper-input {

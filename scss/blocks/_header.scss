@@ -110,7 +110,38 @@
 }
 
 .logo-1 {
-    margin: -150px 0px 150px 0px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.link-1 {
+    font-size: 24px !important;
+}
+
+.button-1 {
+    padding: 10px 18px 18px 18px;
+}
+
+.link-2 {
+    font-size: 14px;
+}
+
+.language-1 {
+    font-size: 17px;
+}
+
+.switch-1 img{
+    width: 40px;
+}
+
+.dot-1 img {
+    width: 16px;
+}
+
+
+._active {
+    overflow: hidden;
 }
 
 /* ============================================================================== */

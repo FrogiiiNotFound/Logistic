@@ -122,5 +122,9 @@
         &__title {
             font-size: 34px;
         }
+
+        &__item {
+            max-width: inherit;
+        }
     }
 }

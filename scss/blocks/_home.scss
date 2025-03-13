@@ -148,17 +148,22 @@
 
 @media (max-width: 528px) {
     .home {
+
+        padding: 100px 0px 120px 0px;
+        margin-top: -10px;
+
         &__title {
             font-size: 35px;
         }
 
         &__request {
             padding: 18px 32px;
-            font-size: 16px;
+            font-size: 14px;
         }
 
         &__learn-more {
-            padding: 18px 30px;
+            padding: 16px 49px;
+            font-size: 14px;
         }
 
         &__buttons {

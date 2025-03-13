@@ -71,7 +71,7 @@
             width: 400px;
         }
 
-        &__item-image img{
+        &__item-image img {
             width: 70%;
         }
 
@@ -111,11 +111,11 @@
     .services {
 
         padding: 50px 0px;
-        
+
         &__item {
             margin: 0px auto;
             left: 50%;
-        transform: translate(-35%, 0%);
+            transform: translate(-35%, 0%);
         }
 
         &__item-content {
@@ -143,5 +143,13 @@
     .item {
         left: 50%;
         transform: translate(-35%, 0%);
+    }
+}
+
+@media (max-width: 528px) {
+    .services {
+        &__item-title {
+            font-size: 22px;
+        }
     }
 }

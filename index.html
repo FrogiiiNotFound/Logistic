@@ -27,13 +27,13 @@
                                 <img src="images/header/logo.png" alt="">
                             </div>
                             <li>
-                                <a class="nav-header__link menu__link current" href="">About</a>
+                                <a class="nav-header__link menu__link current link-about" href="">About</a>
                             </li>
                             <li>
-                                <a class="nav-header__link menu__link" href="">Services</a>
+                                <a class="nav-header__link menu__link link-services" href="">Services</a>
                             </li>
                             <li>
-                                <a class="nav-header__link menu__link" href="">Contacts</a>
+                                <a class="nav-header__link menu__link link-contacts" href="">Contacts</a>
                             </li>
                             <div class="header__addition header__addition-1">
                                 <div class="header__language">
@@ -48,7 +48,7 @@
                                     </div>
                                     <div class="header__language-pl language-1">PL</div>
                                 </div>
-                                <div class="header__button button-1">
+                                <div class="header__button button-1 to-contact-us">
                                     <a class="header__link link-2" href="">Leave A Request</a>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@
                         </div>
                         <div class="header__language-pl">PL</div>
                     </div>
-                    <div class="header__button">
+                    <div class="header__button to-contact-us request-button">
                         <a class="header__link" href="">Leave A Request</a>
                     </div>
                 </div>
@@ -79,18 +79,16 @@
                 <div class="home__container _container">
                     <div class="home__content">
                         <h1 class="home__title animation-text">
-                            <div class="animation-word">Lorem</div>
-                            <div class="animation-word">ipsum</div>
-                            <div class="animation-word">dolor</div>
-                            <div class="animation-word">sit</div>
-                            <div class="animation-word">amet</div>
-                            <div class="animation-word">consectetur.</div>
+                            <div class="animation-word">Fast</div>
+                            <div class="animation-word">&</div>
+                            <div class="animation-word">reliable</div>
+                            <div class="animation-word">delivery</div>
                         </h1>
                         <div class="home__buttons">
-                            <div class="home__button home__request">
+                            <div class="home__button home__request to-contact-us">
                                 <a class="home__link" href="">Leave a request</a>
                             </div>
-                            <div class="home__button home__learn-more">
+                            <div class="home__button home__learn-more to-contact-us">
                                 <a class="home__link" href="">Learn more</a>
                             </div>
                         </div>
@@ -114,7 +112,7 @@
             </section>
             <section class="services">
                 <h2 class="services__title animation-text">
-                    <div class="animation-word">Services</div>
+                    <div id="services" class="animation-word">Services</div>
                 </h2>
                 <div class="services__container _container">
                     <div class="services__items">
@@ -172,6 +170,93 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="info">
+                <div id="about" class="info__container _container">
+                    <h2 class="info__title animation-text">
+                        <div class="animation-word">We</div>
+                        <div class="animation-word">operate</div>
+                        <div class="animation-word">throughout</div>
+                        <div class="animation-word">Europe</div>
+                        <div class="animation-word">and</div>
+                        <div class="animation-word">claim</div>
+                        <div class="animation-word">our</div>
+                        <div class="animation-word">strengths</div>
+                    </h2>
+                    <div class="info__content">
+                        <div class="info__item item-blue">
+                            <h3 class="info__item-title text-blue animation-text">
+                                <div class="animation-word">Customized</div>
+                                <div class="animation-word">Logistic</div>
+                                <div class="animation-word">Solutions:</div>
+                            </h3>
+                            <p class="info__item-text text-blue">
+                                We offer fully customizable logistics solutions that are precisely tailored to each
+                                client's
+                                needs, including customized delivery routes and schedules.
+                            </p>
+                        </div>
+                        <div class="info__item item-blue">
+                            <h3 class="info__item-title text-blue animation-text">
+                                <div class="animation-word">Innovative</div>
+                                <div class="animation-word">Technology:</div>
+                            </h3>
+                            <p class="info__item-text text-blue">
+                                We have implemented advanced real-time shipment tracking systems that allow customers to
+                                monitor the location of their goods every step of the way via a mobile app or web
+                                platform.
+                            </p>
+                        </div>
+                        <div class="info__item">
+                            <h3 class="info__item-title title-max animation-text">
+                                <div class="animation-word">Specializing</div>
+                                <div class="animation-word">in</div>
+                                <div class="animation-word"><span class="unique">unique</span></div>
+                                <div class="animation-word">cargoes:</div>
+                            </h3>
+                            <p class="info__item-text">
+                                We specialize in the transportation of complex and non-standard cargo, including extra
+                                heavy
+                                and oversized cargo, light but bulky cargo, and hazardous substances.
+                            </p>
+                        </div>
+                        <div class="info__item">
+                            <h3 class="info__item-title animation-text">
+                                <div class="animation-word"><span class="highlighted">Packaging</span></div>
+                                <div class="animation-word">and</div>
+                                <div class="animation-word"><span class="highlighted">Storage</span></div>
+                                <div class="animation-word">Services:</div>
+                            </h3>
+                            <p class="info__item-text">
+                                Our company offers comprehensive services for professional packing and temporary storage
+                                of goods in rented warehouses, which allows customers to save time and resources.
+                            </p>
+                        </div>
+                        <div class="info__item">
+                            <h3 class="info__item-title animation-text">
+                                <div class="animation-word"><span class="highlighted">Guaranteed</span></div>
+                                <div class="animation-word">delivery</div>
+                                <div class="animation-word"><span class="highlighted">times:</span></div>
+                            </h3>
+                            <p class="info__item-text">
+                                We provide delivery time guarantees, offering compensation in case of delays,
+                                which minimizes risks for customers.
+                            </p>
+                        </div>
+                        <div class="info__item item-blue">
+                            <h3 class="info__item-title text-blue animation-text">
+                                <div class="animation-word">24/7</div>
+                                <div class="animation-word">customer</div>
+                                <div class="animation-word">support:</div>
+                            </h3>
+                            <p class="info__item-text text-blue">
+                                We offer 24/7 customer support, providing prompt resolution to any transportation
+                                related
+                                problems and issues.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -253,7 +338,7 @@
                     </div>
                 </section>
                 <section class="contact">
-                    <div class="contact__container _container">
+                    <div id="contacts" class="contact__container _container">
                         <h2 class="contact__title animation-text">
                             <div class="animation-word">Please</div>
                             <div class="animation-word">
@@ -295,11 +380,10 @@
             <div class="footer__container _container">
                 <div class="footer__content">
                     <h2 class="footer__address animation-text">
-                        <div class="animation-word">976</div>
-                        <div class="animation-word">Laurel</div>
-                        <div class="animation-word">Close,</div>
-                        <div class="animation-word">Columbusboro</div>
-                        <div class="animation-word">16411-8699</div>
+                        <div class="animation-word">Poleczki</div>
+                        <div class="animation-word">12,</div>
+                        <div class="animation-word">02-822,</div>
+                        <div class="animation-word">Warszawa</div>
                     </h2>
                     <div class="footer__columns">
                         <ul class="footer__column">
@@ -318,13 +402,13 @@
                         <img src="images/contact/arrow-up.svg" alt="">
                     </div>
                 </div>
-                <a href="tel:(900) 766-6913" class="footer__number animation-text">
-                    (900) 766-6913
+                <a href="tel:+48690350176" class="footer__number animation-text">
+                    +48 690 350 176
                 </a>
                 <div class="footer__lower-content">
-                    <a href="mailto:Dale.Boyle63@gmail.com"
-                        class="footer__mail animation-text">Dale.Boyle63@gmail.com</a>
-                    <p class="footer__rights animation-text">© 2025 IhnatovDesign. All rights reserved.</p>
+                    <a href="mailto:office@ventusgroup.eu"
+                        class="footer__mail animation-text">office@ventusgroup.eu</a>
+                    <p class="footer__rights animation-text">© 2025 Ventus Logistic Group SP. Z o.o. . All rights reserved.</p>
                 </div>
             </div>
         </footer>
@@ -336,6 +420,7 @@
     <script src="wordAnimation.js"></script>
     <script src="menu.js"></script>
     <script src="language-switch.js"></script>
+    <script src="headerScroll.js"></script>
 </body>
 
 </html>

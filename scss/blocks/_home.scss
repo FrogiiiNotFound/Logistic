@@ -99,6 +99,10 @@
     display: inline-block;
 }
 
+.request-button {
+    padding: 0px 18px 8px 25px;
+}
+
 /* ============================================================================== */
 
 @media (max-width: 1250px) {
@@ -154,7 +158,7 @@
 @media (max-width: 528px) {
     .home {
 
-        padding: 100px 0px 120px 0px;
+        padding: 200px 0px 120px 0px;
         margin-top: -10px;
 
         &__title {
@@ -173,6 +177,10 @@
 
         &__buttons {
             flex-direction: column;
+        }
+
+        &__addition {
+            margin-bottom: -55px;
         }
     }
 }

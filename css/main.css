@@ -246,6 +246,10 @@ a {
   margin-left: 14px;
 }
 
+.button-pl {
+  padding: 0px 18px 8px 25px;
+}
+
 /* ============================================================================== */
 .menu {
   display: -webkit-box;
@@ -485,6 +489,10 @@ a {
   display: inline-block;
 }
 
+.request-button {
+  padding: 0px 18px 8px 25px;
+}
+
 /* ============================================================================== */
 @media (max-width: 1250px) {
   .home {
@@ -531,7 +539,7 @@ a {
 }
 @media (max-width: 528px) {
   .home {
-    padding: 100px 0px 120px 0px;
+    padding: 200px 0px 120px 0px;
     margin-top: -10px;
   }
   .home__title {
@@ -550,6 +558,9 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .home__addition {
+    margin-bottom: -55px;
   }
 }
 .info {
@@ -877,6 +888,7 @@ a {
   /* Или absolute, в зависимости от ваших требований */
   right: 100%;
   /* Начальное положение вне экрана */
+  margin-top: 40px;
 }
 
 /* ============================================================================== */
@@ -967,6 +979,7 @@ a {
   margin-bottom: 14px;
 }
 .contact__upper-input {
+  min-width: 254px;
   max-width: 254px;
   border-radius: 14px;
   padding: 15px 20px 15px 27px;
@@ -1026,6 +1039,7 @@ a {
     font-size: 44px;
   }
   .contact__upper-input {
+    min-width: inherit;
     max-width: 204px;
   }
   .contact__content-input {
@@ -1348,9 +1362,11 @@ body {
   .slogan__first-title {
     font-size: 50px;
     margin-bottom: 510px;
+    margin-left: 20px;
   }
   .slogan__second-title {
     font-size: 50px;
+    margin-right: 20px;
   }
   .slogan__image img {
     margin-top: -240px;
@@ -1374,9 +1390,10 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
+    margin-bottom: 40px;
   }
   .slogan__subtitle {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   .slogan__truck {
     position: absolute;

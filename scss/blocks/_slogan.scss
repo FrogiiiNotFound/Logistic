@@ -151,10 +151,12 @@ body {
         &__first-title {
             font-size: 50px;
             margin-bottom: 510px;
+            margin-left: 20px;
         }
 
         &__second-title {
             font-size: 50px;
+            margin-right: 20px;
         }
 
         &__image img {
@@ -181,10 +183,11 @@ body {
         &__content {
             flex-direction: column;
             text-align: center;
+            margin-bottom: 40px;
         }
 
         &__subtitle {
-            margin-bottom: 30px;
+            margin-bottom: 10px;
         }
     }
 

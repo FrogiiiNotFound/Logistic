@@ -27,13 +27,13 @@
                                 <img src="images/header/logo.png" alt="">
                             </div>
                             <li>
-                                <a class="nav-header__link menu__link current" href="">About</a>
+                                <a class="nav-header__link menu__link current link-about" href="">O nas</a>
                             </li>
                             <li>
-                                <a class="nav-header__link menu__link" href="">Services</a>
+                                <a class="nav-header__link menu__link link-services" href="">Usługi</a>
                             </li>
                             <li>
-                                <a class="nav-header__link menu__link" href="">Contacts</a>
+                                <a class="nav-header__link menu__link link-contacts" href="">Kontakty</a>
                             </li>
                             <div class="header__addition header__addition-1">
                                 <div class="header__language">
@@ -42,14 +42,14 @@
                                         <div class="header__language-switch switch-1">
                                             <img src="images/header/switch.png" alt="">
                                         </div>
-                                        <div class="header__language-dot dot-1">
+                                        <div class="header__language-dot dot-1 switched">
                                             <img src="images/header/switch-dot.png" alt="">
                                         </div>
                                     </div>
                                     <div class="header__language-pl language-1">PL</div>
                                 </div>
-                                <div class="header__button button-1">
-                                    <a class="header__link link-2" href="">Leave A Request</a>
+                                <div class="header__button button-1 to-contact-us">
+                                    <a class="header__link link-2" href="">Zostaw prośbę</a>
                                 </div>
                             </div>
                         </ul>
@@ -68,8 +68,8 @@
                         </div>
                         <div class="header__language-pl">PL</div>
                     </div>
-                    <div class="header__button">
-                        <a class="header__link" href="">Leave A Request</a>
+                    <div class="header__button button-pl to-contact-us">
+                        <a class="header__link" href="">Zostaw prośbę</a>
                     </div>
                 </div>
             </div>
@@ -79,19 +79,17 @@
                 <div class="home__container _container">
                     <div class="home__content">
                         <h1 class="home__title animation-text">
-                            <div class="animation-word">Lorem</div>
-                            <div class="animation-word">ipsum</div>
-                            <div class="animation-word">dolor</div>
-                            <div class="animation-word">sit</div>
-                            <div class="animation-word">amet</div>
-                            <div class="animation-word">consectetur.</div>
+                            <div class="animation-word">Szybka</div>
+                            <div class="animation-word">&</div> 
+                            <div class="animation-word">niezawodna</div>
+                            <div class="animation-word">dostawa</div>
                         </h1>
                         <div class="home__buttons">
-                            <div class="home__button home__request">
-                                <a class="home__link" href="">Leave a request</a>
+                            <div class="home__button home__request to-contact-us">
+                                <a class="home__link" href="">Zostaw prośbę</a>
                             </div>
-                            <div class="home__button home__learn-more">
-                                <a class="home__link" href="">Learn more</a>
+                            <div class="home__button home__learn-more to-contact-us">
+                                <a class="home__link" href="">Dowiedz się więcej</a>
                             </div>
                         </div>
                     </div>
@@ -101,15 +99,20 @@
                                 <img src="images/home/scroll-down-icon.svg" alt="">
                             </div>
                             <p class="home__scroll-down-text">
-                                scroll down
+                                przewiń w dół
                             </p>
                         </div>
                     </div>
                 </div>
+                <video autoplay loop muted playsinline class="home__video">
+                    <source src="images/home/background.mp4" type="video/mp4">
+                    <source src="images/home/background.webm" type="video/webm">
+                    Twoja przeglądarka nie obsługuje tagu wideo.
+                </video>
             </section>
-            <section class="services">
+            <section id="services" class="services">
                 <h2 class="services__title animation-text">
-                    <div class="animation-word">Services</div>
+                    <div  class="animation-word">Usługi</div>
                 </h2>
                 <div class="services__container _container">
                     <div class="services__items">
@@ -117,7 +120,7 @@
                             <div class="services__item-image">
                                 <img src="images/services/item-1.png" alt="">
                                 <div class="services__item-content">
-                                    <h3 class="services__item-title">Road transport</h3>
+                                    <h3 class="services__item-title">Transport drogowy</h3>
                                     <div class="services__item-icon">
                                         <img src="images/services/content-icon.svg" alt="">
                                     </div>
@@ -128,7 +131,7 @@
                             <div class="services__item-image">
                                 <img src="images/services/item-2.png" alt="">
                                 <div class="services__item-content">
-                                    <h3 class="services__item-title">Customs services</h3>
+                                    <h3 class="services__item-title"> Usługi celne</h3>
                                     <div class="services__item-icon">
                                         <img src="images/services/content-icon.svg" alt="">
                                     </div>
@@ -139,7 +142,7 @@
                             <div class="services__item-image">
                                 <img src="images/services/item-3.png" alt="">
                                 <div class="services__item-content">
-                                    <h3 class="services__item-title">Maritime transport</h3>
+                                    <h3 class="services__item-title">Transport morski</h3>
                                     <div class="services__item-icon">
                                         <img src="images/services/content-icon.svg" alt="">
                                     </div>
@@ -150,7 +153,7 @@
                             <div class="services__item-image">
                                 <img src="images/services/item-4.png" alt="">
                                 <div class="services__item-content">
-                                    <h3 class="services__item-title">Oversize transportation</h3>
+                                    <h3 class="services__item-title">Transport ponadgabarytowy</h3>
                                     <div class="services__item-icon">
                                         <img src="images/services/content-icon.svg" alt="">
                                     </div>
@@ -161,7 +164,7 @@
                             <div class="services__item-image">
                                 <img src="images/services/item-5.png" alt="">
                                 <div class="services__item-content">
-                                    <h3 class="services__item-title">Air transport</h3>
+                                    <h3 class="services__item-title">Transport lotniczy</h3>
                                     <div class="services__item-icon">
                                         <img src="images/services/content-icon.svg" alt="">
                                     </div>
@@ -171,43 +174,124 @@
                     </div>
                 </div>
             </section>
+            <section class="info">
+                <div id="about" class="info__container _container">
+                    <h2 class="info__title animation-text">
+                        <div class="animation-word">Działamy</div>
+                        <div class="animation-word">w</div>
+                        <div class="animation-word">całej</div>
+                        <div class="animation-word">Europie</div>
+                        <div class="animation-word">i</div>
+                        <div class="animation-word">wykorzystujemy</div>
+                        <div class="animation-word">nasze</div>
+                        <div class="animation-word">mocne strony</div>
+                    </h2>
+                    <div class="info__content">
+                        <div class="info__item item-blue">
+                            <h3 class="info__item-title text-blue animation-text">
+                                <div class="animation-word">Niestandardowe</div>
+                                <div class="animation-word">rozwiązania</div>
+                                <div class="animation-word">logistyczne:</div>
+                            </h3>
+                            <p class="info__item-text text-blue">
+                                Oferujemy w pełni konfigurowalne rozwiązania logistyczne, które są precyzyjnie dostosowane do potrzeb każdego klienta, w tym niestandardowe trasy i harmonogramy dostaw.
+                            </p>
+                        </div>
+                        <div class="info__item item-blue">
+                            <h3 class="info__item-title text-blue animation-text">
+                                <div class="animation-word">Innowacyjny</div>
+                                <div class="animation-word">Technologia:</div>
+                            </h3>
+                            <p class="info__item-text text-blue">
+                                Wdrożyliśmy zaawansowane systemy śledzenia przesyłek w czasie rzeczywistym, które umożliwiają klientom
+                                monitorować lokalizację swoich towarów na każdym kroku za pośrednictwem aplikacji mobilnej lub platformy internetowej.
+                                platformę.
+                            </p>
+                        </div>
+                        <div class="info__item">
+                            <h3 class="info__item-title title-max animation-text">
+                                <div class="animation-word">Specjalizujemy</div>
+                                <div class="animation-word">w</div>
+                                <div class="animation-word"><span class="unique">unikalnych</span></div>
+                                <div class="animation-word">ładunkach:</div>
+                            </h3>
+                            <p class="info__item-text">
+                                Specjalizujemy się w transporcie skomplikowanych i niestandardowych ładunków, w tym bardzo
+                                ciężkie
+                                i ponadgabarytowych, lekkich, ale nieporęcznych ładunków oraz substancji niebezpiecznych.</p>
+                        </div>
+                        <div class="info__item">
+                            <h3 class="info__item-title animation-text">
+                                <div class="animation-word"><span class="highlighted">Usługi</span></div>
+                                <div class="animation-word">pakowania</div>
+                                <div class="animation-word"><span class="highlighted">i</span></div>
+                                <div class="animation-word">przechowywania:</div>
+                            </h3>
+                            <p class="info__item-text">
+                                Nasza firma oferuje kompleksowe usługi w zakresie profesjonalnego pakowania i tymczasowego przechowywania towarów.
+                                towarów w wynajętych magazynach, co pozwala klientom zaoszczędzić czas i zasoby.
+                            </p>
+                        </div>
+                        <div class="info__item">
+                            <h3 class="info__item-title animation-text">
+                                <div class="animation-word"><span class="highlighted">Gwarantowany</span></div>
+                                <div class="animation-word">czas</div>
+                                <div class="animation-word"><span class="highlighted">dostawy:</span></div>
+                            </h3>
+                            <p class="info__item-text">
+                                Zapewniamy gwarancje czasu dostawy, oferując rekompensatę w przypadku opóźnień,
+                                co minimalizuje ryzyko dla klientów.
+                            </p>
+                        </div>
+                        <div class="info__item item-blue">
+                            <h3 class="info__item-title text-blue animation-text">
+                                <div class="animation-word">24/7</div>
+                                <div class="animation-word">obsługa</div>
+                                <div class="animation-word">klienta:</div>
+                            </h3>
+                            <p class="info__item-text text-blue">
+                                Oferujemy całodobową obsługę klienta, zapewniając szybkie rozwiązanie wszelkich problemów związanych z transportem.
+                                związanych z transportem
+                                problemy i kwestie.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section class="perks">
                 <div class="perks__container _container">
                     <h2 class="perks__title animation-text">
-                        <div class="animation-word">By</div>
-                        <div class="animation-word">choosing</div>
-                        <div class="animation-word">our</div>
-                        <div class="animation-word">company</div>
-                        <div class="animation-word">you</div>
-                        <div class="animation-word">get</div>
-                        <div class="animation-word">at</div>
-                        <div class="animation-word">your</div>
-                        <div class="animation-word">disposal</div>
+                        <div class="animation-word">Wybierając</div>
+                        <div class="animation-word">naszą</div>
+                        <div class="animation-word">firmę</div>
+                        <div class="animation-word">otrzymujesz</div>
+                        <div class="animation-word">do</div>
+                        <div class="animation-word">dyspozycji</div>
                     </h2>
                     <div class="perks__steps">
                         <div class="perks__step _active">
                             <div class="perks__step-number">1</div>
-                            <p class="perks__step-text">Availability of vehicles throughout Europe</p>
+                            <p class="perks__step-text">Dostępność pojazdów w całej Europie</p>
                         </div>
                         <div class="perks__step">
                             <div class="perks__step-number">2</div>
-                            <p class="perks__step-text">Group transportation: dedicated and loaded</p>
+                            <p class="perks__step-text">Transport grupowy: dedykowany i załadowany</p>
                         </div>
                         <div class="perks__step">
                             <div class="perks__step-number">3</div>
-                            <p class="perks__step-text">Full-load transportation up to 24 tons</p>
+                            <p class="perks__step-text">Transport pełnych ładunków do 24 ton</p>
                         </div>
                         <div class="perks__step">
                             <div class="perks__step-number">4</div>
-                            <p class="perks__step-text">Transportation of bulk goods</p>
+                            <p class="perks__step-text">Transport towarów masowych</p>
                         </div>
                         <div class="perks__step">
                             <div class="perks__step-number">5</div>
-                            <p class="perks__step-text">Temperature controlled transportation</p>
+                            <p class="perks__step-text">Transport w kontrolowanej temperaturze</p>
                         </div>
                         <div class="perks__step">
                             <div class="perks__step-number">6</div>
-                            <p class="perks__step-text">Standard trucks 80m³, 100m³ and 120m³</p>
+                            <p class="perks__step-text">Standardowe ciężarówki 80m³, 100m³ i 120m³</p>
                         </div>
                     </div>
                     <div class="perks__truck">
@@ -215,188 +299,78 @@
                     </div>
                 </div>
             </section>
-            <section class="info">
-                <div class="info__container _container">
-                    <h2 class="info__title animation-text">
-                        <div class="animation-word">We</div>
-                        <div class="animation-word">operate</div>
-                        <div class="animation-word">throughout</div>
-                        <div class="animation-word">Europe</div>
-                        <div class="animation-word">and</div>
-                        <div class="animation-word">claim</div>
-                        <div class="animation-word">our</div>
-                        <div class="animation-word">strengths</div>
-                    </h2>
-                    <div class="info__content">
-                        <div class="info__item item-blue">
-                            <h3 class="info__item-title text-blue animation-text">
-                                <div class="animation-word">Customized</div>
-                                <div class="animation-word">Logistic</div>
-                                <div class="animation-word">Solutions:</div>
-                            </h3>
-                            <p class="info__item-text text-blue">
-                                We offer fully customizable logistics solutions that are precisely tailored to each
-                                client's
-                                needs, including customized delivery routes and schedules.
-                            </p>
+            <div class="truck__wrap">
+                <section class="slogan">
+                    <div class="slogan__container _container">
+                        <h2 class="slogan__first-title animation-text">
+                            <div class="animation-word">Transport</div>
+                        </h2>
+                        <h2 class="slogan__second-title animation-text">
+                            <div class="animation-word">& Logistyka</div>
+                        </h2>
+                        <div class="slogan__image">
+                            <img src="images/slogan/background.png" alt="">
                         </div>
-                        <div class="info__item item-blue">
-                            <h3 class="info__item-title text-blue animation-text">
-                                <div class="animation-word">Innovative</div>
-                                <div class="animation-word">Technology:</div>
-                            </h3>
-                            <p class="info__item-text text-blue">
-                                We have implemented advanced real-time shipment tracking systems that allow customers to
-                                monitor the location of their goods every step of the way via a mobile app or web
-                                platform.
-                            </p>
-                        </div>
-                        <div class="info__item">
-                            <h3 class="info__item-title title-max animation-text">
-                                <div class="animation-word">Specializing</div>
-                                <div class="animation-word">in</div>
-                                <div class="animation-word"><span class="unique">unique</span></div>
-                                <div class="animation-word">cargoes:</div>
-                            </h3>
-                            <p class="info__item-text">
-                                We specialize in the transportation of complex and non-standard cargo, including extra
-                                heavy
-                                and oversized cargo, light but bulky cargo, and hazardous substances.
-                            </p>
-                        </div>
-                        <div class="info__item">
-                            <h3 class="info__item-title animation-text">
-                                <div class="animation-word"><span class="highlighted">Packaging</span></div>
-                                <div class="animation-word">and</div>
-                                <div class="animation-word"><span class="highlighted">Storage</span></div>
-                                <div class="animation-word">Services:</div>
-                            </h3>
-                            <p class="info__item-text">
-                                Our company offers comprehensive services for professional packing and temporary storage
-                                of goods in rented warehouses, which allows customers to save time and resources.
-                            </p>
-                        </div>
-                        <div class="info__item">
-                            <h3 class="info__item-title animation-text">
-                                <div class="animation-word"><span class="highlighted">Packaging</span></div>
-                                <div class="animation-word">and</div>
-                                <div class="animation-word"><span class="highlighted">Storage</span></div>
-                                <div class="animation-word">Services:</div>
-                            </h3>
-                            <p class="info__item-text">
-                                We provide delivery time guarantees, offering compensation in case of delays,
-                                which minimizes risks for customers.
-                            </p>
-                        </div>
-                        <div class="info__item item-blue">
-                            <h3 class="info__item-title text-blue animation-text">
-                                <div class="animation-word">24/7</div>
+                        <div class="slogan__content">
+                            <h3 class="slogan__subtitle animation-text">
+                                <div class="animation-word">Ventus</div>
+                                <div class="animation-word">-</div>
+                                <div class="animation-word">rozwiązanie</div>
+                                <div class="animation-word">dla</div>
+                                <div class="animation-word">każdego</div>
+                                <div class="animation-word">klienta</div>
                                 <div class="animation-word">customer</div>
-                                <div class="animation-word">support:</div>
                             </h3>
-                            <p class="info__item-text text-blue">
-                                We offer 24/7 customer support, providing prompt resolution to any transportation
-                                related
-                                problems and issues.
-                            </p>
+                            <div class="slogan__text">
+                                W Ventus jesteśmy dumni z dostarczania niezawodnych rozwiązań transportowych. Naszym
+                                celem jest zapewnienie
+                                aby każda przesyłka dotarła bezpiecznie i na czas, dostosowana do unikalnych potrzeb
+                                klienta.
+                            </div>
+                        </div>
+                        <div class="slogan__truck">
+                            <img src="images/slogan/truck.png" alt="">
                         </div>
                     </div>
-                </div>
-            </section>
-            <section class="slogan">
-                <div class="slogan__container _container">
-                    <h2 class="slogan__first-title animation-text">
-                        <div class="animation-word">Transportation</div>
-                    </h2>
-                    <h2 class="slogan__second-title animation-text">
-                        <div class="animation-word">& Logistics</div>
-                    </h2>
-                    <div class="slogan__image">
-                        <img src="images/slogan/background.png" alt="">
-                    </div>
-                    <div class="slogan__content">
-                        <h3 class="slogan__subtitle animation-text">
-                            <div class="animation-word">Ventus</div>
-                            <div class="animation-word">-</div>
+                </section>
+                <section class="contact">
+                    <div id="contacts" class="contact__container _container">
+                        <h2 class="contact__title animation-text">
+                            <div class="animation-word">Proszę</div>
+                            <div class="animation-word">
+                                <span>wypełnić formularz</span>
+                            </div>
                             <div class="animation-word">a</div>
-                            <div class="animation-word">solution</div>
-                            <div class="animation-word">for</div>
-                            <div class="animation-word">every</div>
-                            <div class="animation-word">customer</div>
-                        </h3>
-                        <div class="slogan__text animation-text">
-                            <div class="animation-word">At</div>
-                            <div class="animation-word">Ventus,</div>
-                            <div class="animation-word">we</div>
-                            <div class="animation-word">take</div>
-                            <div class="animation-word">pride</div>
-                            <div class="animation-word">in</div>
-                            <div class="animation-word">delivering</div>
-                            <div class="animation-word">reliable</div>
-                            <div class="animation-word">freight</div>
-                            <div class="animation-word">solutions.</div>
-                            <div class="animation-word">Our</div>
-                            <div class="animation-word">goal</div>
-                            <div class="animation-word">is</div>
-                            <div class="animation-word">to</div>
-                            <div class="animation-word">ensure</div>
-                            <div class="animation-word">every</div>
-                            <div class="animation-word">shipment</div>
-                            <div class="animation-word">arrives</div>
-                            <div class="animation-word">safely</div>
-                            <div class="animation-word">and</div>
-                            <div class="animation-word">on</div>
-                            <div class="animation-word">time,</div>
-                            <div class="animation-word">tailored</div>
-                            <div class="animation-word">to</div>
-                            <div class="animation-word">meet</div>
-                            <div class="animation-word">your</div>
-                            <div class="animation-word">unique</div>
-                            <div class="animation-word">needs.</div>
+                            <div class="animation-word">nasz</div>
+                            <div class="animation-word">menedżer</div>
+                            <div class="animation-word">skontaktuje</div>
+                            <div class="animation-word">się</div>
+                            <div class="animation-word">z Tobą</div>
+                        </h2>
+                        <div class="contact__wrap">
+                            <form class="contact__form" action="">
+                                <div class="contact__upper-content">
+                                    <input class="contact__upper-input" type="text" placeholder="Nazwa">
+                                    <input class="contact__upper-input" type="email" placeholder="Email">
+                                    <input class="contact__upper-input" type="tel" placeholder="Telefon">
+                                </div>
+                                <div class="contact__content">
+                                    <textarea maxlength="2000" class="contact__content-input" name="" id=""
+                                        placeholder="Wiadomość"></textarea>
+                                </div>
+                                <div class="contact__lower-content">
+                                    <button class="contact__lower-button">
+                                        <div class="contact__lower-link" href="">wysyłać</div>
+                                        <div class="contact__lower-icon">
+                                            <img src="images/services/content-icon.svg" alt="">
+                                        </div>
+                                    </button>
+                                </div>
+                            </form>
                         </div>
                     </div>
-                    <div class="slogan__truck">
-                        <img src="images/slogan/truck.png" alt="">
-                    </div>
-                </div>
-            </section>
-            <section class="contact">
-                <div class="contact__container _container">
-                    <h2 class="contact__title animation-text">
-                        <div class="animation-word">Please</div>
-                        <div class="animation-word">
-                            <span>fill out the form</span>
-                        </div>
-                        <div class="animation-word">and</div>
-                        <div class="animation-word">our</div>
-                        <div class="animation-word">manager</div>
-                        <div class="animation-word">will</div>
-                        <div class="animation-word">contact</div>
-                        <div class="animation-word">you</div>
-                    </h2>
-                    <div class="contact__wrap">
-                        <form class="contact__form" action="">
-                            <div class="contact__upper-content">
-                                <input class="contact__upper-input" type="text" placeholder="Name">
-                                <input class="contact__upper-input" type="email" placeholder="Email">
-                                <input class="contact__upper-input" type="tel" placeholder="Phone">
-                            </div>
-                            <div class="contact__content">
-                                <textarea maxlength="2000" class="contact__content-input" name="" id=""
-                                    placeholder="Message"></textarea>
-                            </div>
-                            <div class="contact__lower-content">
-                                <button class="contact__lower-button">
-                                    <div class="contact__lower-link" href="">send</div>
-                                    <div class="contact__lower-icon">
-                                        <img src="images/services/content-icon.svg" alt="">
-                                    </div>
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </main>
         <footer class="footer">
             <div class="footer__container _container">
@@ -410,13 +384,12 @@
                     </h2>
                     <div class="footer__columns">
                         <ul class="footer__column">
-                            <a href="" class="footer__item">About</a>
-                            <a href="" class="footer__item">Services</a>
-                            <a href="" class="footer__item">Contact</a>
+                            <a href="#about" class="footer__item">O nas</a>
+                            <a href="#services" class="footer__item">Usługi</a>
+                            <a href="#contacts" class="footer__item">Kontakt</a>
                         </ul>
                         <ul class="footer__column">
                             <a href="" class="footer__item">Facebook</a>
-                            <a href="" class="footer__item">Twitter</a>
                             <a href="" class="footer__item">Linkedin</a>
                             <a href="" class="footer__item">Instagram</a>
                         </ul>
@@ -425,13 +398,13 @@
                         <img src="images/contact/arrow-up.svg" alt="">
                     </div>
                 </div>
-                <a href="tel:(900) 766-6913" class="footer__number animation-text">
-                    (900) 766-6913
+                <a href="tel:+48 690350176" class="footer__number animation-text">
+                    +48 690 350 176
                 </a>
                 <div class="footer__lower-content">
-                    <a href="mailto:Dale.Boyle63@gmail.com"
-                        class="footer__mail animation-text">Dale.Boyle63@gmail.com</a>
-                    <p class="footer__rights animation-text">© 2025 IhnatovDesign. All rights reserved.</p>
+                    <a href="mailto:office@ventusgroup.eu"
+                        class="footer__mail animation-text">office@ventusgroup.eu                     </a>
+                        <p class="footer__rights animation-text">© 2025 Ventus Logistic Group SP. Z o.o. . Wszelkie prawa zastrzeżone..</p>
                 </div>
             </div>
         </footer>
@@ -443,6 +416,7 @@
     <script src="wordAnimation.js"></script>
     <script src="menu.js"></script>
     <script src="language-switch.js"></script>
+    <script src="headerScroll.js"></script>
 </body>
 
 </html>
